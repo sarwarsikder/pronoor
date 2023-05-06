@@ -1,31 +1,44 @@
 <template>
-    <section class="section bg-home" id="home">
-        <div class="bg-overlay"></div>
-        <div class="home-center">
-            <div class="home-desc-center">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-12 text-center">
-                            <div class="mb-4">
-                                <i data-feather="layers" class="text-custom"></i>
-                            </div>
-                            <h5 class="home-small-title text-uppercase text-white-50 mb-4">Awesome Design</h5>
-                            <h2 class="home-title text-white">Starting with Pronoor is easier than anything</h2>
-                            <p class="home-desc mx-auto mt-3 text-white-50">Maecenas class semper class semper
-                                sollicitudin lectus lorem iaculis imperdiet aliquam vehicula tempor auctor curabitur
-                                pede aenean ornare.</p>
-                            <div class="text-center subcribe-form mt-5">
-                                <form action="#">
-                                    <input type="text" placeholder="E-mail">
-                                    <button type="submit" class="btn btn-custom">Subcribe</button>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+    <SliderComponent/>
+    <main id="main">
+        <WeDoComponent/>
+
+        <!-- ======= About Section ======= -->
+        <AbountUsComponent/>
+        <!-- End About Section -->
+
+        <!-- ======= Counts Section ======= -->
+        <SkillsComponenet/>
+        <!-- End Counts Section -->
+
+        <!-- ======= Services Section ======= -->
+        <!-- End Services Section -->
+        <ServiceComponent/>
+        <!-- ======= Portfolio Section ======= -->
+        <PortfolioComponent/>
+        <!-- End Portfolio Section -->
+
+        <!-- ======= Testimonials Section ======= -->
+        <!-- End Testimonials Section -->
+        <TestimonialComponent/>
+        <!-- ======= Team Section ======= -->
+        <TeamComponent/>
+        <!-- End Team Section -->
+
+        <!-- ======= Contact Section ======= -->
+        <ContactUsComponent/>
+        <!-- End Contact Section -->
+
+    </main><!-- End #main -->
 </template>
 <script setup>
+import SliderComponent from "../components/Home/SliderComponent.vue";
+import WeDoComponent from "../components/Home/WeDoComponent.vue";
+import AbountUsComponent from "../components/Home/AbountUsComponent.vue";
+import SkillsComponenet from "../components/Home/SkillsComponenet.vue";
+import ServiceComponent from "../components/Home/ServiceComponent.vue";
+import PortfolioComponent from "../components/Home/PortfolioComponent.vue";
+import TestimonialComponent from "../components/Home/TestimonialComponent.vue";
+import TeamComponent from "../components/TeamComponent.vue";
+import ContactUsComponent from "../components/Home/ContactUsComponent.vue";
 </script>

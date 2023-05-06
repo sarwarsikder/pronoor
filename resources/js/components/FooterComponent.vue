@@ -1,60 +1,78 @@
 <template>
-    <section class="footer bg-dark">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-4">
-                    <div class="footer-menu">
-                        <h5 class="mb-4 text-uppercase">Oxavia</h5>
-                        <p>The Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium eaque quae ab
-                            illo inventore veritatis et.</p>
-                        <div class="text-white">
-                            <a href="#facebook"><i class="mdi mdi-facebook facebook footer_mdi"></i></a>
-                            <a href="#twitter"><i class="mdi mdi-twitter twitter footer_mdi"></i></a>
-                            <a href="#google"><i class="mdi mdi-google google footer_mdi"></i></a>
-                        </div>
-                    </div>
-                </div>
+    <footer id="footer">
 
-                <div class="col-lg-2">
-                    <div class="footer-menu">
-                        <h5 class="mb-4 text-uppercase">About</h5>
-                        <ul class="text-muted list-unstyled">
-                            <li><a href="#">About Us</a></li>
-                            <li><a href="#">Term</a></li>
-                            <li><a href="#">Privacy</a></li>
+        <div class="footer-top">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-lg-3 col-md-6 footer-contact">
+                        <h3>Pronoor</h3>
+                        <p>
+                            A108 Adam Street <br>
+                            New York, NY 535022<br>
+                            United States <br><br>
+                            <strong>Phone:</strong> +1 5589 55488 55<br>
+                            <strong>Email:</strong> info@example.com<br>
+                        </p>
+                    </div>
+
+                    <div class="col-lg-2 col-md-6 footer-links">
+                        <h4>Useful Links</h4>
+                        <ul>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
                         </ul>
                     </div>
-                </div>
 
-                <div class="col-lg-2">
-                    <div class="footer-menu">
-                        <h5 class="mb-4 text-uppercase">Help Center</h5>
-                        <ul class="text-muted list-unstyled">
-                            <li><a href="#">Accounting</a></li>
-                            <li><a href="#">Billing</a></li>
-                            <li><a href="#">General Question</a></li>
+                    <div class="col-lg-3 col-md-6 footer-links">
+                        <h4>Our Services</h4>
+                        <ul>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#">Product Management</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
                         </ul>
                     </div>
-                </div>
 
-                <div class="col-lg-4">
-                    <div class="footer-menu">
-                        <h5 class="mb-4 text-uppercase">Contact us</h5>
-                        <p>The Nam eget dui Etiam rhoncus. Maecenas eget sem quam semper libero.</p>
-                        <span class="footer-support">Support@Pronoor.com</span>
+                    <div class="col-lg-4 col-md-6 footer-newsletter">
+                        <h4>Join Our Newsletter</h4>
+                        <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
+                        <form action="" method="post">
+                            <input type="email" name="email"><input type="submit" value="Subscribe">
+                        </form>
                     </div>
-                </div>
-            </div>
 
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="text-center mt-5">
-                        <p class="mb-0">2023 © Pronoor.</p>
-                    </div>
                 </div>
             </div>
         </div>
-    </section>
+
+        <div class="container d-md-flex py-4">
+
+            <div class="me-md-auto text-center text-md-start">
+                <div class="copyright">
+                    &copy; Copyright <strong><span>Pronoor</span></strong>. All Rights Reserved
+                </div>
+                <div class="credits">
+                    <!-- All the links in the footer should remain intact. -->
+                    <!-- You can delete the links only if you purchased the pro version. -->
+                    <!-- Licensing information: https://bootstrapmade.com/license/ -->
+                    <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/lumia-bootstrap-business-template/ -->
+                    Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+                </div>
+            </div>
+            <div class="social-links text-center text-md-right pt-3 pt-md-0">
+                <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+                <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+                <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+                <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+                <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+            </div>
+        </div>
+    </footer><!-- End Footer -->
 </template>
 
 <script>
